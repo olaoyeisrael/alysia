@@ -14,11 +14,11 @@ function Speaking() {
     <>
    <section className='flex flex-row bg-[#F5E4D6]'>
     <img src={image} className='sm:w-[698px] hidden xl:block'></img>
-    <div className=' py-[83px] pl-[53px] lg:mr-[144px] px-[23px]'>
+    <div className='py-[60px] md:py-[83px] md:pl-[53px] lg:mr-[144px] px-[23px]'>
         <div>
             <h1>SPEAKING</h1>
             <h1 className='font-bold  text-[54px] md:text-8xl mt-4 text-[#29180A]'>I don’t just speak, I deliver transformation upon impact.</h1>
-            <p className='mt-9 text-[16px]'>I speak to rooms full of students, leaders, entrepreneurs, and changemakers ready to shift mindsets, claim power, and create real change.</p>
+            <p className='mt-6 md:mt-9 text-[16px]'>I speak to rooms full of students, leaders, entrepreneurs, and changemakers ready to shift mindsets, claim power, and create real change.</p>
 
             <p className='mt-4'>Whether I’m breaking down the politics of profit, unlocking the blueprint to confidence, or helping people navigate complex systems, I show up with CLARITY, STRATEGY, and PRECISION.</p>
             <div className='mt-[38px]'>
@@ -51,7 +51,7 @@ The Next Generation of Leaders: Preparing for the Future of Civic Engagement
    </section>
 
 
-   <section className='pt-[120px]'>
+   <section className='pt-[50px] md:pt-[120px]'>
     <div className='flex flex-col items-center justify-center mx-6 md:mx-[401px]'>
         <div> <h1 className='font-medium text-[#0B2C2C]'>PROJECTS & WORK</h1></div>
         
@@ -63,18 +63,18 @@ The Next Generation of Leaders: Preparing for the Future of Civic Engagement
 
    </section>
 
-   <section className='bg-[#0B2C2C] mt-[59px]'>
-    <div className='flex flex-col mx-6 md:flex-row justify-between md:mx-[154px] mb-[187px]'>
-        <div className='bg-white px-4 py-4 rounded-xl'>
-            <img src={stand} className='w-[331px] h-[260px] rounded-lg'></img>
+   <section className='bg-[#0B2C2C] mt-6 md:mt-[59px]'>
+    <div className='flex flex-col mx-6 md:flex-row justify-between md:mx-[154px] mb-[60px] md:mb-[187px]'>
+        <div className='bg-white px-4 py-4 rounded-xl mb-3 md:mb-0'>
+            <img src={stand} className='w-full h-[260px] rounded-lg'></img>
             <h1 className='text-center mt-3 font-bold text-[20px]'> BizFed Advocacy Academy</h1>
         </div>
-         <div className='bg-white px-4 py-4 rounded-xl'>
-            <img src={stand} className='w-[331px] h-[260px] rounded-lg'></img>
+         <div className='bg-white px-4 py-4 rounded-xl  mb-3 md:mb-0'>
+            <img src={stand} className='w-full h-[260px] rounded-lg'></img>
             <h1 className='text-center mt-3 font-bold text-[20px]'> CAMPAIGN PORTFOLIO</h1>
         </div>
         <div className='bg-white px-4 py-4 rounded-xl'>
-            <img src={book} className='w-[331px] h-[260px] rounded-lg'></img>
+            <img src={book} className='w-full h-[260px] rounded-lg'></img>
             <h1 className='text-center mt-3 font-bold text-[20px]'> MY WRITING & STORYTELLING</h1>
         </div>
 
@@ -110,18 +110,18 @@ The Next Generation of Leaders: Preparing for the Future of Civic Engagement
 </div>
 
 
-<div className='mt-32 flex flex-col lg:flex-row mx-6 md:mx-[155px] justify-between items-center pb-[181px]'>
-    <div className='w-[430px]'>
+<div className=' mt-16 md:mt-32 flex flex-col lg:flex-row mx-6 md:mx-[155px] justify-between items-center pb-16 mb:pb-[181px]'>
+    <div className='md:w-[430px]'>
         <div className=''>
-            <h1 className='text-white font-medium text-center md:text-left'>Book & Writing</h1>
-            <h1 className='text-white font-bold text-[54px] text-center md:text-left md:text-8xl'>Reclaiming the Narrative.</h1>
+            <h1 className='text-white font-medium md:text-center '>Book & Writing</h1>
+            <h1 className='text-white font-bold text-[54px] md:text-center md:text-8xl'>Reclaiming the Narrative.</h1>
 
         </div>
         <p className='text-white mt-[29px] text-center md:text-left'>I write for disruptors, deep thinkers, and the quietly revolutionary, people ready to break cycles, rewrite narratives, and create something freer.
 </p>
 
     </div>
-    <img src={last} className='w-[404px] mt-10 md:mt-0'></img>
+    <img src={last} className=' w-[327px] h-[492px] md:w-[404px] mt-10 md:mt-0'></img>
 </div>
 
 

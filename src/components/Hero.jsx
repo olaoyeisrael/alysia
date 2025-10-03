@@ -11,8 +11,8 @@ function Hero() {
         className=" h-screen bg-cover bg-center"
         style={{ backgroundImage: `url(${heroImage})`}}
         >
-        <div className="container text-center items-center mx-auto max-w-3xl pt-60">
-        <h1 className="text-white font-extrabold text-[55px] md:text-8xl leading-tight">
+        <div className="container text-center items-center  md:mx-auto pt-60">
+        <h1 className="text-white font-extrabold text-[55px] md:text-8xl leading-tight mt-[150px] md:mt-[221px]">
           Power isn’t given. It’s claimed through clarity, strategy, and action.
         </h1>
       </div>
@@ -28,10 +28,10 @@ function Hero() {
 
 
 
-<section className='px-36 py-[60px] md:py-64'>
+<section className='px-6 md:px-36 py-[60px] md:py-[60px]'>
     <div className='flex flex-col lg:flex-row gap-[70.6px] items-center'>
         <div>
-            <h1 className='text-9xl font-bold text-[#0B2C2C] md:text-[56px]'>MEET Alysia Rivers</h1>
+            <h1 className='md:text-9xl font-bold text-[#0B2C2C] text-[56px]'>MEET Alysia Rivers</h1>
             <p className='text-lg mt-5'>An advocate, speaker, strategist, author, and the founder of the BizFed Advocacy Academy.
 
 My work lives at the intersection of policy, economic empowerment, and personal transformation.

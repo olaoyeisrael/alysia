@@ -34,15 +34,15 @@ function Hero() {
 
 
 
-<section className=' mt-12 mx-2 md:mx-[70px] py-10 px-[80px] md:mt-[100px] bg-[#F5E4D6] rounded-4xl'>
-    <div className='flex flex-col-reverse lg:flex-row justify-between items-center '>
+<section className=' mt-12 mx-2 md:mx-[70px] py-10 px-6 md:px-[80px] md:mt-[100px] bg-[#F5E4D6] rounded-4xl'>
+    <div className='flex flex-col-reverse gap-11 lg:flex-row justify-between items-center '>
         <div>
             <div>
             <h1 className='text-lg font-medium text-[#0B2C2C] md:text-[56px]'>THE BOOK</h1>
-            <h1 className='text-8xl font-bold mt-4'>If You Wonder Why They Call You Nigga</h1>
+            <h1 className='text-[54px] md:text-8xl font-bold mt-4'>If You Wonder Why They Call You Nigga</h1>
             </div>
 
-            <p className='mt-[35px]'>A bold, reflective book on identity, cultural conditioning, and reclaiming your power.</p>
+            <p className='mt-6 md:mt-[35px]'>A bold, reflective book on identity, cultural conditioning, and reclaiming your power.</p>
 
                 <p> If You Wonder Why They Call You Nigga is a bold, reflective book that explores how identity, language, and cultural conditioning shape our confidence and power.</p>
 <p className='mt-2'>
@@ -55,7 +55,7 @@ Through personal storytelling and sharp cultural commentary, I challenge readers
     <h1> PURCHASE BOOK</h1>  
 </div>
         </div>
-        <img src={book} className='w-[404px] h-[609px]'></img>
+        <img src={book} className='w-full md:w-[404px] h-[492px] md:h-[609px]'></img>
     </div>
 
 </section>
@@ -65,10 +65,10 @@ Through personal storytelling and sharp cultural commentary, I challenge readers
 
 
 <section className='md:mt-[100px] mt-12 pt-[97px]'>
-    <div className='bg-[#F5E4D6] md:mx-[150px] mx-6 flex flex-row items-center justify-between px-[17px] md:px-0'>
+    <div className='bg-[#F5E4D6] md:mx-[150px] mx-6 flex flex-row items-center py-12 md:py-0 rounded-2xl justify-between px-[17px] md:px-0'>
         <img src={aly} className='h-[968px] hidden lg:block'></img>
         <div className=' md:ml-[60px]'>
-            <h1 className='font-bold text-[64px] text-[#0B2C2C]'>Ready to Activate Your Own Power?</h1>
+            <h1 className='font-bold text-3xl md:text-[64px] text-[#0B2C2C]'>Ready to Activate Your Own Power?</h1>
             <p>Grab your copy of If You Wonder Why They Call You
 Nigga, explore more of my writing.</p>
 
@@ -84,18 +84,18 @@ Nigga, explore more of my writing.</p>
     </div>
 
 
-    <div className='bg-[#0B2C2C] px-6 md:px-[350px] py-[120px] mt-[100px]'>
+    <div className='bg-[#0B2C2C] lg:px-[350px] py-[120px] mt-[100px] '>
         <div>
             <div>
                 <h1 className='text-white text-center'>OTHER WRITINGS & EDITORIALS</h1>
-                <h1 className='text-white text-center font-bold text-[54px] md:text-8xl'>Words That Move Conversations Forward.</h1>
+                <h1 className='text-white text-center font-bold text-[54px] lg:text-8xl'>Words That Move Conversations Forward.</h1>
                 <p className='text-center text-white mt-6'>Essays, bold truths, and raw thoughts meant to push conversations
 forward and activate change.</p>
             </div>
 
-            <div className='mx-6 lg:mx-[351px] mt-[60px]'>
-                <div className='flex flex-row py-7 bg-[#F5E4D6] items-center rounded-xl '>
-                    <img className='lg:ml-4 w-[129px] h-[96px]' src={forbes} ></img>
+            <div className='mx-6 mt-[60px]'>
+                <div className=' flex flex-row py-7 bg-[#F5E4D6] items-center rounded-xl '>
+                    <img className='ml-4 w-[129px] h-[96px]' src={forbes} ></img>
                     <div className=' ml-6'>
                         <h1 className='font-bold'>Reclaiming the Narrative in Business and Policy</h1>
                         <div className='bg-[#0B2C2C] mt-3 rounded-sm px-3 py-3 w-[130px]'>
