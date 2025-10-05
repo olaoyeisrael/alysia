@@ -6,3 +6,43 @@
   font-family: 'Nunito', sans-serif;
   color-scheme: white;
 }
+
+@font-face {
+  font-family: TTBold;
+  src: url('../src/assets/fonts/TT\ Bluescreens\ Trial\ Bold.ttf');
+}
+@font-face {
+  font-family: ChivoMedium;
+  src: url('../src/assets/fonts/Chivo-Medium.ttf');
+}
+@font-face {
+  font-family: ChivoLight;
+  src: url('../src/assets/fonts/Chivo-Light.ttf');
+}
+@font-face {
+  font-family: Chivo;
+  src: url('../src/assets/fonts/Chivo-Regular.ttf');
+}
+@font-face {
+  font-family: ChivoBold;
+  src: url('../src/assets/fonts/Chivo-Bold.ttf');
+}
+@font-face {
+  font-family: TTExtraBold;
+  src: url('../src/assets/fonts/TT\ Bluescreens\ Trial\ ExtraBold.ttf');
+}
+@font-face {
+  font-family: ChivoItalic;
+  src: url('../src/assets/fonts/Chivo-Italic.ttf');
+}
+
+@theme{
+  --font-TTBold: TTBold, 'sans-serif';
+  --font-ChivoMedium: ChivoMedium, 'sans-serif';
+  --font-ChivoLight: ChivoLight, 'sans-serif';
+  --font-Chivo: Chivo, 'sans-serif';
+  --font-ChivoBold: ChivoBold, 'sans-serif';
+  --font-TTExtraBold: TTExtraBold, 'sans-serif';
+  --font-ChivoItalic: ChivoItalic, 'sans-serif';
+  
+}

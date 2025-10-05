@@ -16,13 +16,13 @@ function NavBar() {
         <ul className="hidden md:flex md:space-x-6 font-semibold text-sm items-center">
         {/* <a href="#about" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl">ABOUT ALYSIA</a> */}
         {/* <a href="#speaking" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl">SPEAKING</a> */}
-        <Link to="/" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl">HOME</Link>
+        <Link to="/" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl font-TTBold">HOME</Link>
         {/* <a href="#projects" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl">PROJECTS & WORK</a> */}
-        <a href="/book" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl">BOOK & WRITING</a>
-        <a href="/about" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl">ABOUT</a>
+        <a href="/book" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl font-TTBold">BOOK & WRITING</a>
+        <a href="/about" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl font-TTBold">ABOUT</a>
         <a
           href="#contact"
-          className="bg-[#E0AF85] hover:bg-[#d69f70] text-gray-900 text-2xl px-4 py-4 rounded-lg font-extrabold"
+          className="bg-[#E0AF85] hover:bg-[#d69f70] text-gray-900 text-2xl px-4 py-4 rounded-lg font-TTBold"
         >
           BOOK ME TO SPEAK
         </a>
@@ -36,13 +36,13 @@ function NavBar() {
         <ul className="md:hidden absolute top-16 left-0 right-0 bg-[#FAF2EB] px-6 py-4 flex flex-col items-center space-y-4">
           {/* <Link to="#about" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl">ABOUT ALYSIA</Link>
           <Link to="#speaking" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl">SPEAKING</Link> */}
-          <Link to="/" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl">HOME</Link>
+          <Link to="/" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl font-TTBold">HOME</Link>
           {/* <Link to="#projects" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl">PROJECTS & WORK</Link> */}
-          <Link to="/book" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl">BOOK & WRITING</Link>
-          <Link to="/about" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl">ABOUT</Link>
+          <Link to="/book" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl font-TTBold">BOOK & WRITING</Link>
+          <Link to="/about" className="hover:text-[#A4693B] text-[#0B2C2C] text-xl font-TTBold">ABOUT</Link>
           <Link
             to="#contact"
-            className="bg-[#E0AF85] hover:bg-[#d69f70] text-gray-900 text-2xl px-4 py-4 rounded-lg font-extrabold"
+            className="bg-[#E0AF85] hover:bg-[#d69f70] text-gray-900 text-2xl px-4 py-4 rounded-lg font-TTBold"
           >
             BOOK ME TO SPEAK
           </Link>
