@@ -8,7 +8,7 @@ import third from '../assets/c2f5282a603d9f6e5f299dae9a85964a1a72b00e.jpg'
 import fourth from '../assets/cb954f8a858de88c2ef62e6bc9697210c0db9709.png'
 import fifth from '../assets/e6b9f28fe87b069173c881401278e6630ee32383.png'
 import last from '../assets/last.png'
-import rectan from '../assets/rectangle_8.png'
+import rectan from '../assets/Rectangle_8.png'
 import image2 from '../assets/image.png'
 
 
